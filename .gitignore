@@ -1,0 +1,18 @@
+# Build output
+/bin/
+/gatewayd
+*.test
+
+# Profiling and load-test output
+*.prof
+*.pprof
+/testdata/out/
+
+# Local secrets and config — never commit
+.env
+.env.*
+*.local.yaml
+
+# Editor
+.vscode/
+.idea/
